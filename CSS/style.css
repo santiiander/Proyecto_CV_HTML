@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:0 35px 55px rgba(0, 0, 0, 0.1) ;
+}
+.contenedor .ladoizq {
+    position: relative;
+    background:#003147;
+    padding: 40px;
+    
+}
+
+.contenedor .ladoder {
+    position: relative;
+    background:#fff;
+    padding: 40px;
+    
+}
+
+.perfiltxt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.perfiltxt .imgbx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.perfiltxt .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.perfiltxt h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.perfiltxt h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+
+#mail{
+    font-size: 0.9em;
+}
+
+.contacto{
+    padding-top: 40px;
+}
+.infocontacto{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacto ul {
+    position: relative;
+}
+.contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contacto ul li .icono{
+    display: inline-block;
+    font-size: 15px;
+    color: #03a9f4;
+
+}
+.contacto ul li .texto{
+    color:#fff;
+    font-weight: 300;
+
+}
+
+.contacto .educacion li{
+    margin-bottom: 15px;
+}
+
+.contacto.educacion h5
+{
+    color: #03a9f4;
+}
+.contacto.educacion h4 :nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+.contacto.educacion h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contacto.lenguaje.porcentaje
+{
+    position:relative;
+    width: 100%;
+    height: 6px;
+    background: #f00;
+    display: block;
+    margin-top: 5px;
+}
