@@ -144,7 +144,14 @@ body{
     position:relative;
     width: 100%;
     height: 6px;
-    background: #f00;
+    background: #081921;
     display: block;
     margin-top: 5px;
+}
+.contacto.lenguaje .porcentaje div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4
 }
